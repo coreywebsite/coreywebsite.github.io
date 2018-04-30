@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <script>console.log("CSS");</script>
+    <div id=CSS >
+    <link rel="stylesheet" href="index.css">
+    </div>
+    <script>console.log("JavaScript");</script>
+    <div id=bootstrap>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </div>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <head>
+      <div class="container">
+  <nav style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="index.html">Welcome</a>
+    <a class="navbar-brand" href="project.html">Projects</a>
+    <a class="navbar-brand" href="IntershipPrograms">Intership/Programs</a>
+    <a class="navbar-brand" href="contact.html">Contact</a>
+  </nav>
+</div>
+    </head>
+    <main>
+      <h1><p>Welcome to Corey's Website</p></h1>
+      <!-- Slideshow container -->
+      <div class="w3-content w3-section" style="max-width:500px">
+         <img class="mySlides w3-animate-fading" src="1332b8_6be5ea7d8cc74ba9bce8abd6ca2e08ec_mv2_d_2048_2046_s_2.png"style="width:100%">
+         <img class="mySlides w3-animate-fading" src="1332b8_398f7b84a07d45518fc1a1975a847ebb_mv2_d_2048_2046_s_2.png" style="width:100%">
+         <img class="mySlides w3-animate-fading" src="1332b8_0643b976c64a42f2b4fee047182bfcf6_mv2_d_2048_2046_s_2.png" style="width:100%">
+         <img class="mySlides w3-animate-fading" src="1332b8_e493552b92674abb9fdc90a0a6b38b8e_mv2_d_2048_2046_s_2.png" style="width:100%">
+      </div>
+      <script>
+         var myIndex = 0;
+         carousel();
+
+         function carousel() {
+             var i;
+             var x = document.getElementsByClassName("mySlides");
+             for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+             }
+             myIndex++;
+             if (myIndex > x.length) {myIndex = 1}
+             x[myIndex-1].style.display = "block";
+             setTimeout(carousel, 9000);
+         }
+      </script>
+      <script>console.log("slide is working to ");</script>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+   </body>
+    </main>
+<script>console.log("bootstrap");</script>
+  <div id=bootstrap>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </div>
+  <div id=JavaScript>
+    <script src="index.js"></script>
+  </div>
+  </body>
+</html>
